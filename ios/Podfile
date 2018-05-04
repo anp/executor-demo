@@ -1,0 +1,17 @@
+platform :ios, '9.0'
+
+target 'Expo' do
+
+  eval(IO.read('PodfileFragments/React.rb'), binding)
+
+  target 'ExpoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'ExpoUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
