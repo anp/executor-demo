@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
   UIWindow *window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
   _window = window;
   window.backgroundColor = UIColor.whiteColor;
-  
+
   UIViewController *rootVC = [[EXAppViewController alloc] init];
   window.rootViewController = rootVC;
   

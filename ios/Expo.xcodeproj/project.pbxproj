@@ -10,6 +10,7 @@
 		32D5B92BB84B31B5BBE6F4A5 /* libPods-ExpoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 210E857525880B54BA6CADE0 /* libPods-ExpoUITests.a */; };
 		44A3140A357EA3F874C42890 /* libPods-Expo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A97803BCCB6367E756313C3B /* libPods-Expo.a */; };
 		4E60DEBCF98A47B36A3C6504 /* libPods-ExpoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB39538BC2C6B3B08151E89 /* libPods-ExpoTests.a */; };
+		66345CB0209CFFDF0059344A /* EXDuktapeExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 66345CAF209CFFDF0059344A /* EXDuktapeExecutor.m */; };
 		7818F51D20896C27007D634A /* EXAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7818F51C20896C27007D634A /* EXAppViewController.m */; };
 		7873287A2065CD3200EB3193 /* EXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 787328792065CD3200EB3193 /* EXAppDelegate.m */; };
 		7873287D2065CD3300EB3193 /* EXWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7873287C2065CD3300EB3193 /* EXWebViewController.m */; };
@@ -41,6 +42,10 @@
 /* Begin PBXFileReference section */
 		03BC61506C8E1B62111BACB8 /* Pods-ExpoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExpoTests/Pods-ExpoTests.release.xcconfig"; sourceTree = "<group>"; };
 		210E857525880B54BA6CADE0 /* libPods-ExpoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExpoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66345CAF209CFFDF0059344A /* EXDuktapeExecutor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EXDuktapeExecutor.m; sourceTree = "<group>"; };
+		66345CB1209D00030059344A /* EXDuktapeExecutor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EXDuktapeExecutor.h; sourceTree = "<group>"; };
+		66345CB2209D0A5B0059344A /* duk_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = duk_config.h; sourceTree = "<group>"; };
+		66345CB3209D0A600059344A /* duktape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = duktape.h; sourceTree = "<group>"; };
 		7818F51B20896C27007D634A /* EXAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EXAppViewController.h; sourceTree = "<group>"; };
 		7818F51C20896C27007D634A /* EXAppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EXAppViewController.m; sourceTree = "<group>"; };
 		787328752065CD3200EB3193 /* Expo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Expo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +105,8 @@
 		7873286C2065CD3200EB3193 = {
 			isa = PBXGroup;
 			children = (
+				66345CB2209D0A5B0059344A /* duk_config.h */,
+				66345CB3209D0A600059344A /* duktape.h */,
 				787328772065CD3200EB3193 /* Expo */,
 				787328902065CD3300EB3193 /* ExpoTests */,
 				7873289B2065CD3300EB3193 /* ExpoUITests */,
@@ -126,6 +133,8 @@
 				787328792065CD3200EB3193 /* EXAppDelegate.m */,
 				7818F51B20896C27007D634A /* EXAppViewController.h */,
 				7818F51C20896C27007D634A /* EXAppViewController.m */,
+				66345CB1209D00030059344A /* EXDuktapeExecutor.h */,
+				66345CAF209CFFDF0059344A /* EXDuktapeExecutor.m */,
 				7873287B2065CD3300EB3193 /* EXWebViewController.h */,
 				7873287C2065CD3300EB3193 /* EXWebViewController.m */,
 				78C3A9D3208814E4002660EE /* EXWebViewExecutor.h */,
@@ -373,6 +382,7 @@
 			files = (
 				7873287D2065CD3300EB3193 /* EXWebViewController.m in Sources */,
 				787328882065CD3300EB3193 /* main.m in Sources */,
+				66345CB0209CFFDF0059344A /* EXDuktapeExecutor.m in Sources */,
 				7873287A2065CD3200EB3193 /* EXAppDelegate.m in Sources */,
 				78C3A9D5208814E4002660EE /* EXWebViewExecutor.m in Sources */,
 				7818F51D20896C27007D634A /* EXAppViewController.m in Sources */,

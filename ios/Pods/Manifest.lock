@@ -6,6 +6,7 @@ PODS:
     - DoubleConversion
     - glog
   - glog (0.3.4)
+  - KKDuktape (1.0.2)
   - React/ART (0.55.3):
     - React/Core
   - React/Core (0.55.3):
@@ -64,6 +65,7 @@ DEPENDENCIES:
   - DoubleConversion (from `../js/node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
   - Folly (from `../js/node_modules/react-native/third-party-podspecs/Folly.podspec`)
   - glog (from `../js/node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - KKDuktape (~> 1.0)
   - React/ART (from `../js/node_modules/react-native`)
   - React/Core (from `../js/node_modules/react-native`)
   - React/CxxBridge (from `../js/node_modules/react-native`)
@@ -86,6 +88,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - boost-for-react-native
+    - KKDuktape
 
 EXTERNAL SOURCES:
   DoubleConversion:
@@ -101,12 +104,13 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
-  DoubleConversion: ebb6747c5b66026ad4f97b789c3ceac6f18e57a6
+  DoubleConversion: e22e0762848812a87afd67ffda3998d9ef29170c
   Folly: 211775e49d8da0ca658aebc8eab89d642935755c
   glog: 1de0bb937dccdc981596d3b5825ebfb765017ded
+  KKDuktape: 59831f5b8811c0daec9d7463d231a93c9656d506
   React: aa2040dbb6f317b95314968021bd2888816e03d5
   yoga: a23273df0088bf7f2bb7e5d7b00044ea57a2a54a
 
-PODFILE CHECKSUM: a6f559235dafc8a213b45ef3c7a6d379763a9487
+PODFILE CHECKSUM: 5ea712946e72c9ff193faf6fa74681348bb15e58
 
 COCOAPODS: 1.5.0

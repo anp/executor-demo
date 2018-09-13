@@ -1,5 +1,6 @@
 #import "EXAppViewController.h"
 
+#import "EXDuktapeExecutor.h"
 #import "EXWebViewExecutor.h"
 
 #import <React/RCTBridge.h>
